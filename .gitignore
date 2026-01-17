@@ -1,0 +1,40 @@
+# Ignorar archivos y carpetas del sistema / usuario
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Node.js
+node_modules/
+npm-debug.log
+package-lock.json
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de shells / terminal
+.bash_history
+.bash_logout
+.bashrc
+.profile
+.sudo_as_admin_successful
+
+# Cloud / cache / config
+.cache/
+.codeoss/
+.config/
+.docker/
+.gemini/
+.gsutil/
+
+# Archivos locales de pruebas
+*.txt
+
+.npm/
